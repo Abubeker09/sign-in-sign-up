@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login and registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="btn">
+      <div id="selectd" class="selectd"></div>
+      <button onclick="login()">Login</button>
+      <button onclick="registr()">Registr</button>
+    </div>
+    <div class="images">
+      <img src="login-reg-img/fb.png">
+      <img src="login-reg-img/tw.png">
+      <img src="login-reg-img/gp.png">
+    </div>
+
+    <form id="registr" class="registr">
+      <input type="text" placeholder="Username" name="username">
+      <input type="email" placeholder="Email" name="email" required>
+      <input type="password" placeholder="Password" name="password"> <br>
+      <input id="checkbox" type="checkbox"> <span>I agree to the terms & conditions</span>
+      <button>Registr</button>
+    </form>
+
+    <form id="login" class="login">
+        <input type="text" placeholder="Username" name="username">
+        <input type="password" placeholder="Password" name="password">
+        <button>Log in</button>
+    </form>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
